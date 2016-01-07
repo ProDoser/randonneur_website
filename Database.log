@@ -1,0 +1,722 @@
+--------------------------------------------------------------------------------
+2015-08-15 14:23:26 DATABASE ACCESS ERROR
+
+1) Database object's method Open reports the following: Open failed
+
+2) The method call in your program is as follows:
+
+	Open("Data Source=(LocalDB)\v11.0;
+          AttachDbFilename=|DataDirectory|\TakkulaDatabase.mdf;
+          Integrated Security=True;Connect Timeout=40")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	An attempt to attach an auto-named database for file C:\Users\Doser\Documents\Visual Studio 2013\WebSites\RandonneurCase_ZadorozhnykhLeonid\App_Data\TakkulaDatabase.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 14:33:32 DATABASE ACCESS ERROR
+
+1) Database object's method Open reports the following: Open failed
+
+2) The method call in your program is as follows:
+
+	Open("Data Source=(LocalDB)\v11.0;
+          AttachDbFilename=|DataDirectory|\TakkulaDatabase.mdf;
+          Integrated Security=True;Connect Timeout=40")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	An attempt to attach an auto-named database for file C:\Users\Doser\Documents\Visual Studio 2013\WebSites\RandonneurCase_ZadorozhnykhLeonid\App_Data\TakkulaDatabase.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 14:34:49 DATABASE ACCESS ERROR
+
+1) Database object's method Open reports the following: Open failed
+
+2) The method call in your program is as follows:
+
+	Open("Data Source=(LocalDB)\v11.0;
+          AttachDbFilename=|DataDirectory|\TakkulaDatabase.mdf;
+          Integrated Security=True;Connect Timeout=40")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	An attempt to attach an auto-named database for file C:\Users\Doser\Documents\Visual Studio 2013\WebSites\RandonneurCase_ZadorozhnykhLeonid\App_Data\TakkulaDatabase.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 14:59:56 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT clubid, clubName, city, clubemail FROM Club ORDER BY clubName;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'clubemail'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 15:00:53 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT clubid, clubName, city, clubemail FROM Club ORDER BY clubName;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'clubemail'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 15:01:29 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT clubid, clubname, clubcity, clubemail FROM Club ORDER BY clubName;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'clubcity'.
+Invalid column name 'clubemail'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 15:04:05 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT clubid, clubname, city, mail FROM Club ORDER BY clubName;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'mail'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 21:01:56 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("INSERT INTO Club (clubid, clubName, city, email)
+                VALUES 115, 'Test Club', 'Helsinki', 'fssa@dgdh.com'")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near '115'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 21:05:57 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("INSERT INTO Club (clubid, clubName, city, email)
+                VALUES 115, 'gdzdkjhg', 'fndkh', 'fsgh@fgkjh.tr'")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near '115'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 21:29:47 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("UPDATE Club
+                SET clubname ='Testing Club',
+                    city ='Mos',
+                    email ='fsgh@google.com',
+                WHERE clubid = 115")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near the keyword 'WHERE'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 21:30:47 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("UPDATE Club
+                SET clubname ='Testing Club',
+                    city ='Mos',
+                    email ='fsgh@google.com',
+                WHERE clubid = 115")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near the keyword 'WHERE'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 21:48:52 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("UPDATE Club
+                SET clubname ='Elena's Club',
+                    city ='Helsinki',
+                    email ='club@google.com'
+                WHERE clubid = 115")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near 's'.
+Unclosed quotation mark after the character string '
+                WHERE clubid = 115'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-15 21:49:00 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("UPDATE Club
+                SET clubname ='Elena's Club',
+                    city ='Helsinki',
+                    email ='club@google.com'
+                WHERE clubid = 115")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near 's'.
+Unclosed quotation mark after the character string '
+                WHERE clubid = 115'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 10:15:59 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyName, r.givenName, Club.clubName, br.finishingTimeFROM Brevet_Rider AS brJOIN Rider AS rON br.riderid = r.rideridJOIN Club ON r.clubid = Club.clubidWHERE br.brevetid = 10ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near the keyword 'AS'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 10:17:09 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyName, r.givenName, Club.clubName, br.finishingTimeFROM Brevet_Rider AS brJOIN Rider AS rON br.riderid = r.rideridJOIN Club ON r.clubid = Club.clubidWHERE br.brevetid = 10ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near the keyword 'AS'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 10:18:35 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyName, r.givenName, Club.clubName, br.finishingTimeFROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 10ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near the keyword 'AS'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 10:19:54 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyName, r.givenName, Club.clubName, br.finishingTimeFROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 10ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near the keyword 'AS'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 17:03:42 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT role FROM Rider WHERE username =rider50 AND passwor =123")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'rider50'.
+Invalid column name 'passwor'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 17:07:16 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT role FROM Rider WHERE username =rider50 AND passwor =123")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'rider50'.
+Invalid column name 'passwor'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 17:11:15 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT role FROM Rider WHERE username = 'rider50' AND passwor = '123'")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'passwor'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 19:36:33 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT brevetid, distance, brevetdate, location, climbing FROM brevet WHERE distance = '200 brevetdate = '2015%' location = 'Helsinki ORDER BY brevetdate;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near '2015'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 19:39:37 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT brevetid, distance, brevetdate, location, climbing FROM brevet WHERE distance = '200' brevetdate = '2013%' location = 'Helsinki ORDER BY brevetdate;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near 'brevetdate'.
+Unclosed quotation mark after the character string 'Helsinki ORDER BY brevetdate;'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 19:40:57 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT brevetid, distance, brevetdate, location, climbing FROM brevet WHERE distance = '200' brevetdate = '2013%' location = 'Helsinki ORDER BY brevetdate;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near 'brevetdate'.
+Unclosed quotation mark after the character string 'Helsinki ORDER BY brevetdate;'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 19:41:29 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT brevetid, distance, brevetdate, location, climbing FROM brevet WHERE distance = '200' brevetdate = '2013%' location = 'Helsinki' ORDER BY brevetdate;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near 'brevetdate'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 19:43:00 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT brevetid, distance, brevetdate, location, climbing FROM brevet WHERE distance = '200' brevetdate = '2013%' location = 'Helsinki' ORDER BY brevetdate;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near 'brevetdate'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 22:40:35 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT riderid, familyname, givenname, gender, clubid FROM rider ORDER BY clubid, familyname, givenname;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'familyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 22:42:05 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT riderid, familyname, givenname, gender, clubid FROM rider ORDER BY clubid, familyname, givenname;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'familyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 22:43:32 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT riderid, familyname, givenname, gender, clubid FROM rider ORDER BY clubid, familyname, givenname;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'familyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 23:02:32 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT riderid, familyname, givenname, gender, phone, 
+                email, clubid, username, password, role 
+                FROM rider 
+                ORDER BY clubid, familyname, givenname 
+                WHERE riderid = 42")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near the keyword 'WHERE'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 23:04:00 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT riderid, familyname, givenname, gender, phone, 
+                email, clubid, username, password, role 
+                FROM rider 
+                ORDER BY clubid, familyname, givenname 
+                WHERE riderid = 40")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near the keyword 'WHERE'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 23:07:37 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("INSERT INTO Rider (riderid, familyName, givenName, gender, phone, 
+                email, clubid, username, password, role)
+                VALUES (125, 'Test', 'Test', 'M', '1568165', 'fsgh@google.com', '113', 'testRider', '123', 'admin', )")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near ')'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 23:07:48 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("INSERT INTO Rider (riderid, familyName, givenName, gender, phone, 
+                email, clubid, username, password, role)
+                VALUES (125, 'Test', 'Test', 'M', '1568165', 'fsgh@google.com', '113', 'testRider', '123', 'admin', )")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near ')'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-16 23:11:21 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("INSERT INTO Rider (riderid, familyName, givenName, gender, phone, 
+                email, clubid, username, password, role)
+                VALUES (125, 'Test', 'Test', 'M', '1568165', 'club@google.com', '113', 'testRider', '123', 'user', )")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Incorrect syntax near ')'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:00 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 10 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:02 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 11 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:03 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 12 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:04 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 13 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:04 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 14 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:08 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 10 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:10 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 11 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:10 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 12 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:11 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 13 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:30:12 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 14 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:33:34 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.failyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 10 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'failyname'.
+
+	DBMS native error code: 1
+
+--------------------------------------------------------------------------------
+2015-08-17 11:34:19 DATABASE ACCESS ERROR
+
+1) Database object's method ExecuteQuery reports the following: ExecuteQuery failed
+
+2) The method call in your program is as follows:
+
+	ExecuteQuery("SELECT r.faimlyname AS familyname, r.givenname, Club.clubname AS club, br.finishingTime FROM Brevet_Rider AS br JOIN Rider AS r ON br.riderid = r.riderid JOIN Club ON r.clubid = Club.clubid WHERE br.brevetid = 10 ORDER BY br.finishingTime;")
+
+3) System.Data.SqlClient.SqlException message is as follows: 
+
+	Invalid column name 'faimlyname'.
+
+	DBMS native error code: 1
+
